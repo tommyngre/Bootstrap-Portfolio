@@ -11,7 +11,6 @@ body{
   background-color: #ffffff;
   border-bottom: 2px solid #cccccc;
 }
-
 .content{
   max-width:960px;
   margin:0 auto;
@@ -51,6 +50,7 @@ h1, .header-text{
   background-color: #ffffff;
   border:1px solid #dddddd;
   overflow:auto;
+  margin-bottom:20px;
 }
 
 .prof-pic{
@@ -64,11 +64,17 @@ h1, .header-text{
   display:flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  /* how to justify-content:center when screen small*/
 }
 .proj-wrapper{
   flex-basis: 0 0 280px;
   position:relative;
+}
+.proj-pic{
+  flex-basis: 0 0 280px;
+  position:relative;
   float:left;
+  max-width:275px;
   margin-bottom: 30px;
 }
 .proj-name{
@@ -79,10 +85,6 @@ h1, .header-text{
   padding:10px;
   width: 100%;
   font-weight: normal;
-}
-.proj-pic{
-  float:left;
-  max-width:275px;
 }
 
 /* contact form styles */
@@ -132,6 +134,7 @@ textarea {
   background-color: #ffffff;
   border:1px solid #dddddd;
   padding-bottom: 15px;
+  margin-bottom:20px;
 }
 .icon{
   width:60px;
@@ -141,7 +144,6 @@ textarea {
 }
 
 .card{
-  margin-top:20px;
   border-top: 5px solid #4aaaa5;
 }
 
