@@ -12,8 +12,6 @@ body{
   border-bottom: 2px solid #cccccc;
 }
 
-
-
 .content{
   max-width:960px;
   margin:0 auto;
@@ -26,7 +24,6 @@ body{
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size:1.5em;
   font-weight:bold;
-
 }
 
 h1, .header-text{
@@ -143,6 +140,13 @@ textarea {
   opacity:.7;
 }
 
-footer{
+.card{
   margin-top:20px;
+  border-top: 5px solid #4aaaa5;
+}
+
+.card-header{
+  background-color: #666666;
+  color:#aaaaaa;
+  text-align:center;
 }
