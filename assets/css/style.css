@@ -11,16 +11,21 @@ body{
   background-color: #ffffff;
   border-bottom: 2px solid #cccccc;
 }
-li.active{
-  color:#aaaaaa;
-
+.nav-link{
+  padding:.2rem 1rem;
 }
-.active{
-  background-color:#cccccc;
+.navlink:hover{
+  color:gray;
+  font-style: italic;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active{
+  background-color:#4aaaa5;
+  color:white;
+  opacity:.5;
 }
 
 .border-div{
-  border-right: 1px solid #aaaaaa;
+  border-right: 1px solid gray;
 }
 
 .content{
