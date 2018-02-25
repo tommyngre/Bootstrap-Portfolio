@@ -11,6 +11,18 @@ body{
   background-color: #ffffff;
   border-bottom: 2px solid #cccccc;
 }
+li.active{
+  color:#aaaaaa;
+
+}
+.active{
+  background-color:#cccccc;
+}
+
+.border-div{
+  border-right: 1px solid #aaaaaa;
+}
+
 .content{
   max-width:960px;
   margin:0 auto;
