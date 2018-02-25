@@ -14,18 +14,26 @@ body{
 .nav-link{
   padding:.2rem 1rem;
 }
-.navlink:hover{
-  color:gray;
-  font-style: italic;
-}
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active{
   background-color:#4aaaa5;
   color:white;
   opacity:.5;
 }
-
+.navbar-nav .nav-link{
+  margin-top: 5px;
+  padding-top: 5px;
+  padding-left: 10px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+  background-color: #4aaaa5;
+  color:white;
+  opacity:.4;
+}
 .border-div{
   border-right: 1px solid gray;
+}
+.navbar-toggler{
+  margin-top:10px;
 }
 
 .content{
@@ -84,15 +92,15 @@ h1, .header-text{
   /* how to justify-content:center when screen small*/
 }
 .proj-wrapper{
-  flex-basis: 0 0 280px;
+  display: flex;
   position:relative;
 }
+.proj-wrapper:hover{
+  opacity:.7;
+}
 .proj-pic{
-  flex-basis: 0 0 280px;
-  position:relative;
-  float:left;
-  max-width:275px;
   margin-bottom: 30px;
+  max-width:260px;
 }
 .proj-name{
   position: absolute;
