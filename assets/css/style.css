@@ -81,7 +81,10 @@ h1, .header-text{
 .prof-pic{
   float:left;
   margin-right:15px;
-  width:100px;
+}
+
+.about-me{
+  text-align:justify;
 }
 
 /* portfolio page styles */
@@ -94,13 +97,10 @@ h1, .header-text{
 .proj-wrapper{
   display: flex;
   position:relative;
+  margin-bottom: 30px;
 }
 .proj-wrapper:hover{
   opacity:.7;
-}
-.proj-pic{
-  margin-bottom: 30px;
-  max-width:260px;
 }
 .proj-name{
   position: absolute;
