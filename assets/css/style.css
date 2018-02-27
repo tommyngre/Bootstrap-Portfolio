@@ -64,6 +64,11 @@ h1, .header-text{
 .section-content-wrapper{
   margin:15px;
 }
+
+.about-me-width{
+  width:100%;
+}
+
 .divider-line{
   margin:0 auto;
   min-height:1px;
@@ -81,6 +86,7 @@ h1, .header-text{
 .prof-pic{
   float:left;
   margin-right:15px;
+  width:40%;
 }
 
 .about-me{
@@ -89,6 +95,7 @@ h1, .header-text{
 
 /* portfolio page styles */
 .projs-wrapper{
+  width: 100%;
   display:flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -101,6 +108,9 @@ h1, .header-text{
 }
 .proj-wrapper:hover{
   opacity:.7;
+}
+.proj-pic{
+
 }
 .proj-name{
   position: absolute;
