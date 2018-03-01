@@ -89,22 +89,31 @@ h1, .header-text{
 }
 
 /* portfolio page styles */
+.projs-wrapper{
+  width: 100%;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* how to justify-content:center when screen small*/
+}
 .proj-wrapper{
-  display:inline-block;
+  display: flex;
   position:relative;
-  margin-bottom:30px;
-  width:100%;
+  margin-bottom: 30px;
 }
 .proj-wrapper:hover{
   opacity:.7;
 }
+.proj-pic{
+
+}
 .proj-name{
   position: absolute;
-  text-align: center;
-  margin-top: 20px;
-  padding: 5px 10px;
+  margin-top:15px;
   color:white;
   background-color:#4aaaa5;
+  padding:10px;
+  width: 100%;
   font-weight: normal;
 }
 

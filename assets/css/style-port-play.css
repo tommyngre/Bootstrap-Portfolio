@@ -79,18 +79,10 @@ h1, .header-text{
   margin-bottom:20px;
 }
 
-.prof-pic{
-  float:left;
-  margin: 0px 15px 15px 0px;
-}
 
-.about-me{
-  text-align:justify;
-}
 
 /* portfolio page styles */
 .proj-wrapper{
-  display:inline-block;
   position:relative;
   margin-bottom:30px;
   width:100%;
@@ -100,76 +92,15 @@ h1, .header-text{
 }
 .proj-name{
   position: absolute;
+  display:block;
+  margin:0 auto;
   text-align: center;
-  margin-top: 20px;
+  left:0;
+  right:0;
+  top: 20px;
   padding: 5px 10px;
-  color:white;
-  background-color:#4aaaa5;
-  font-weight: normal;
+  color:#4aaaa5;
+  /* background-color:#4aaaa5; */
+  /* font-weight: normal; */
 }
 
-/* contact form styles */
-.form{
-  color:gray;
-}
-input{
-  width:100%;
-  margin: 5px 0px 10px 0px;
-  border: 1px solid #CCCCCC;
-  color:#BBBBBB;
-  border-radius: 0px;
-  box-sizing: border-box;
-  padding: 5px;
-}
-input[type=submit]{
-  width:auto;
-  padding:10px 15px 10px 15px;
-  border: none;
-  margin-top:10px;
-  background-color:#4aaaa5;
-  color:white;
-}
-input[type=submit]:hover{
-  background-color:#4aaaa5;
-  opacity:.7;
-  color:white;
-  font-style: italic;
-}
-textarea {
-  height:100px;
-  width:100%;
-  margin: 5px 0px 10px 0px;
-  border: 1px solid #CCCCCC;
-  color:#BBBBBB;
-  border-radius: 0px;
-  resize: none;
-  box-sizing: border-box;
-  padding: 5px;
-}
-#mailto-subject{
-  display: none;
-}
-
-/* social media (right-side) content */
-.right-content{
-  background-color: #ffffff;
-  border:1px solid #dddddd;
-  padding-bottom: 15px;
-  margin-bottom:20px;
-}
-.icon{
-  width:60px;
-}
-.icon:hover{
-  opacity:.7;
-}
-
-.card{
-  border-top: 5px solid #4aaaa5;
-}
-
-.card-header{
-  background-color: #666666;
-  color:#aaaaaa;
-  text-align:center;
-}
