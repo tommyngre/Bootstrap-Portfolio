@@ -112,36 +112,40 @@ h1, .header-text{
 .form{
   color:gray;
 }
+.form-control::placeholder, ::placeholder {
+  color:#dddddd;
+}
 input{
   width:100%;
-  margin: 5px 0px 10px 0px;
-  border: 1px solid #CCCCCC;
+  margin: 0px 0px 5px 0px;
   color:#BBBBBB;
   border-radius: 0px;
   box-sizing: border-box;
   padding: 5px;
 }
-input[type=submit]{
+label{
+  margin-bottom:0rem;
+}
+.btn-primary{
   width:auto;
-  padding:10px 15px 10px 15px;
   border: none;
   margin-top:10px;
   background-color:#4aaaa5;
   color:white;
 }
-input[type=submit]:hover{
-  background-color:#4aaaa5;
+.btn-primary:hover,.btn-primary:focus.btn-primary:active,.btn-primary.active{
   opacity:.7;
-  color:white;
   font-style: italic;
+  background-color:#4aaaa5;
+  color:white;
 }
 textarea {
   height:100px;
   width:100%;
-  margin: 5px 0px 10px 0px;
-  border: 1px solid #CCCCCC;
+  margin: 0px 0px 10px 0px;
+  border: 1px solid #ced4da;
   color:#BBBBBB;
-  border-radius: 0px;
+  border-radius: .25rem;
   resize: none;
   box-sizing: border-box;
   padding: 5px;

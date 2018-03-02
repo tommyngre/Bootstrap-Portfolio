@@ -52,15 +52,22 @@
         <div class="section-content-wrapper">
           <h1>Contact</h1>
           <div class="divider-line"></div>
+
           <form class="form non-header-text" enctype="text/plain" action="mailto:tommyn.gre@gmail.com" method="GET">
-            <input id="mailto-subject" name="Subject" type="hidden" value="Portfolio contact"> Name
-            <input class="non-header-text" name="Subject" type="text">
-            <br> Email Address
-            <input class="non-header-text" name="Subject" type="email">
-            <br> Message
-            <textarea class="non-header-text" name="Body"></textarea>
-            <br>
-            <input class="non-header-text" type="submit" value="send">
+            <div class="form-group">
+              <input id="mailto-subject" name="Subject" type="hidden" value="Portfolio contact">
+
+              <label for="exampleInputName">Name</label>
+              <input type="text" name="Subject" class="form-control" id="exampleInputName" placeholder="Enter name">
+
+              <label for="exampleInputEmail">Email address</label>
+              <input type="email" name="Subject" class="form-control" id="exampleInputEmail" placeholder="Enter email">
+
+              <label for="exampleInputMessage">Message</label>
+              <textarea class="non-header-text" name="Body" class="form-control" id="exampleInputMessage" placeholder="Tell me what's on your mind?"></textarea>
+
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
           </form>
         </div>
       </div>
